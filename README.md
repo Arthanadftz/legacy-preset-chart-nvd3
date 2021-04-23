@@ -1,4 +1,4 @@
-## @superset-ui/legacy-preset-chart-nvd3
+## @arthanasti/legacy-preset-chart-nvd3
 
 [![Version](https://img.shields.io/npm/v/@superset-ui/legacy-preset-chart-nvd3.svg?style=flat-square)](https://www.npmjs.com/package/@superset-ui/legacy-preset-chart-nvd3)
 [![David (path)](https://img.shields.io/david/apache-superset/superset-ui-plugins.svg?path=packages%2Fsuperset-ui-legacy-preset-chart-nvd3&style=flat-square)](https://david-dm.org/apache-superset/superset-ui-plugins?path=packages/superset-ui-legacy-preset-chart-nvd3)
@@ -10,7 +10,7 @@ This plugin provides Big Number for Superset.
 Import the preset and register. This will register all the chart plugins under nvd3.
 
 ```js
-import { NVD3ChartPreset } from '@superset-ui/legacy-preset-chart-nvd3';
+import { NVD3ChartPreset } from '@arthanasti/legacy-preset-chart-nvd3';
 
 new NVD3ChartPreset().register();
 ```

@@ -19,7 +19,7 @@
  * under the License.
  */
 import { t, validateNonEmpty } from '@superset-ui/core';
-import { sections } from '@superset-ui/chart-controls';
+import { sections } from '@arthanasti/chart-controls';
 import { lineInterpolation, showLegend, xAxisLabel, bottomMargin, xTicksLayout, xAxisFormat, xAxisShowMinmax, showMarkers, yAxis2Format } from '../NVD3Controls';
 export default {
   controlPanelSections: [{

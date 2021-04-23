@@ -18,7 +18,7 @@
  */
 import React from 'react';
 import { t } from '@superset-ui/core';
-import { formatSelectOptions, D3_TIME_FORMAT_OPTIONS, D3_FORMAT_DOCS, D3_FORMAT_OPTIONS } from '@superset-ui/chart-controls';
+import { formatSelectOptions, D3_TIME_FORMAT_OPTIONS, D3_FORMAT_DOCS, D3_FORMAT_OPTIONS } from '@arthanasti/chart-controls';
 /*
   Plugins in question:
 
