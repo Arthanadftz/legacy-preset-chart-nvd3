@@ -17,7 +17,7 @@
  * under the License.
  */
 import { t } from '@superset-ui/core';
-import { sections } from '@superset-ui/chart-controls';
+import { sections } from '@arthanasti/chart-controls';
 import { lineInterpolation, showBrush, showLegend, showControls, xAxisLabel, bottomMargin, xTicksLayout, xAxisFormat, yLogScale, yAxisBounds, xAxisShowMinmax, richTooltip, timeSeriesSection } from '../NVD3Controls';
 export default {
   controlPanelSections: [timeSeriesSection[0], {

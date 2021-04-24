@@ -17,7 +17,7 @@
  * under the License.
  */
 import { t } from '@superset-ui/core';
-import { formatSelectOptions, D3_FORMAT_OPTIONS } from '@superset-ui/chart-controls';
+import { formatSelectOptions, D3_FORMAT_OPTIONS } from '@arthanasti/chart-controls';
 import { showLegend, xAxisLabel, yAxisLabel, bottomMargin, xTicksLayout, xAxisFormat, yLogScale, xAxisShowMinmax, yAxisShowMinmax, leftMargin } from '../NVD3Controls';
 export default {
   label: t('Bubble Chart'),
